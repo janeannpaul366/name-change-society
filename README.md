@@ -16,6 +16,8 @@ approaching their 1 year limit.
 
 ## Task
 
+### Overview
+
 You need to implement this system. There needs to be a way for users to log in
 to the system and update their name as well as see their past names. A person
 is not allowed to re-use a name they had in the past and no two people should
@@ -35,6 +37,42 @@ select a date and see the names of people at the date selected.
 For the general public, there should be a simple page, that doesn't require
 logging in to see, that shows the names of people that should be updating their
 names some time within the next 28 days.
+
+### Backend
+
+The backend for this service will need a number of features and endpoints. This
+list isn't meant to be an exaustive list, just a guide on what you might want to
+plan to support
+
+- A datastore (RDBMS or optionally a NoSQL solution)
+  - Users
+  - People
+  - Names
+  - Admins
+- API endpoints for the required functionallity
+  - Auth (login/logout)
+  - Listing names that will need to be updated soon
+  - Listing people stored in the system
+  - Getting historical names for a person
+  - Submitting a new name for a person
+  - Listing names that haven't been renewed on time
+
+### Frontend
+
+The frontend needs to be built in React and should call the APIs that have been
+built. The pages will need to have different checks on them to make sure that
+only people with the correct permissions can access them (e.g. normal users
+shouldn't be able to access the admin pages).
+
+- Home page
+- Logged in user pages
+  - Person overview
+  - Historical names
+  - Form to submit a new name
+- Admin pages
+  - List of all people
+  - Viewing a single person
+  - Listing people with names that haven't been updated on time
 
 ## Considerations
 
