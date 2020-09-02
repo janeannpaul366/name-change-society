@@ -5,7 +5,7 @@
 You have been hired by the government of a small country who have asked you to
 build a website to help its citizens manage their interaction with the
 government. They live in a society where people like to change their name, so
-much so that it is law for people to change their name at least ever year,
+much so that it is law for people to change their name at least every year,
 although they have the option to change it more often if they like.
 
 The government requires a system for its people to be able to log in and submit
