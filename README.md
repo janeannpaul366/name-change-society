@@ -34,7 +34,7 @@ Keep in mind there are restrictions on what a citizen can name themselves:
 For your solution we would expect to see:
 1. Usage of a relatiional database such as PostgresSQL
 1. A Rest or GraphQL API written in PHP, ideally Laravel
-1. A frontend built in React, that performs API calls to your API
+1. A frontend built in JavaScript, ideally ES6/TypeScript/React, that performs API calls to your API
 
 Your solution will need a number of endpoints / features / database tables, etc. The following is only a guide of what we are expecting to see in your submission
 
