@@ -51,11 +51,11 @@ Your solution will need a number of endpoints / features / database tables, etc.
   - Log in/out
   - Authenticated endpoints / pages
     - The logged in citizen can:
-      - Retrive their own name
+      - Retrieve their own name
       - Retrieve all their historical names
       - Submit a new name
       - List all names that are expiring within 28 days
-    - The logged in goverment official can:
+    - The logged in government official can:
       - List the names of all citizens
       - List all historical names of any citizen
       - Submit a new name for any citizen
