@@ -29,7 +29,7 @@ For your solution we expect to see:
 1. A Rest or GraphQL API
 1. A frontend built in JavaScript, ideally ES6/TypeScript/React, that performs calls to your API
   1. You are not expected to create a fancy looking page. Feel free to use a basic CSS framework or none at all
-1. Optional: The database and app to be in Docker containers
+1. Clear instructions provided on how to run your application
 
 Your solution will need a number of endpoints / features / database tables, etc. The following is only a guide of what we are expecting to see in your submission
 
