@@ -4,7 +4,7 @@
 The government of a small country has tasked you with building a website to help its citizens manage their names. This country is pretty quirky. The citizens loved changing their name so much that it became common for everyone to change their name at least once a year! Quirkier still, local law requires that no citizen is allowed to re-use a past name, and every current name must be unique. Because of this, it's become common courtesy to hold on to a name for no longer than a year.
 
 ### Overview
-This government requires a system for its citizens to be able to log in and submit their name changes as well as providing a way to view their past names. Government officials will also be able to log in and view a list of citizens, and perform administrative duties such as viewing past names and submitting new names on behalf of citizens.
+This government requires a system for its citizens to be able to log in and submit their name changes as well as providing a way to view their past names. 
 
 They also need a page to show names that should be changing within 28 days. The citizens are expected to be able to check this page without being required to log in. They want to easily keep an eye out for names that they might like to have for a year!
 
@@ -22,29 +22,20 @@ They also need a page to show names that should be changing within 28 days. The 
 Keep in mind there are restrictions on what a citizen can name themselves:
 1. They cannot re-use a name that they've had in the past
 1. They cannot use a name that someone else currently has
- 
-##### Create any necessary pages that allow government officials to:
-1. Log in/out
-1. View the names of all citizens
-1. View any particular citizen to:
-  1. See their current name
-  1. See their past names
-  1. Submit a new name on their behalf
 
 ### Solution
 For your solution we expect to see:
 1. Usage of a relational database such as PostgreSQL
-1. A Rest or GraphQL API written in Laravel
+1. A Rest or GraphQL API
 1. A frontend built in JavaScript, ideally ES6/TypeScript/React, that performs calls to your API
   1. You are not expected to create a fancy looking page. Feel free to use a basic CSS framework or none at all
-1. The database, backend, and frontend to be in Docker containers
+1. Clear instructions provided on how to run your application
 
 Your solution will need a number of endpoints / features / database tables, etc. The following is only a guide of what we are expecting to see in your submission
 
 - A RDBMS datastore (PostgreSQL for example)
   - Tables
     - Citizens
-    - Government Officials
     - Names
     - Users
 - API Endpoints and Frontend Pages
@@ -55,10 +46,6 @@ Your solution will need a number of endpoints / features / database tables, etc.
       - Retrieve all their historical names
       - Submit a new name
       - List all names that are expiring within 28 days
-    - The logged in government official can:
-      - List the names of all citizens
-      - List all historical names of any citizen
-      - Submit a new name for any citizen
 
 ### Considerations
 - You may manually create users directly in your database
