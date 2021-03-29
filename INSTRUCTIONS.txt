@@ -1,0 +1,11 @@
+languages : Laravel Rest Api, React
+
+Database : psql
+
+Project Status : Incomplete
+
+Database connection established with names, citizen and users table.
+
+Only able to create login modules in react, since I am very new to it. 
+
+
